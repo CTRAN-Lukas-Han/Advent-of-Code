@@ -33,7 +33,7 @@ def process_input(input_str):
 
 
 def main():
-    with open(r"C:\Users\lukas.han\Downloads\input.txt", 'r') as f:
+    with open("input.txt", 'r') as f:
         input_data = f.read()
     
     repeats = process_input(input_data)
